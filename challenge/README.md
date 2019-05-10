@@ -11,10 +11,12 @@ https://r3.smarthealthit.org/Patient/smart-1557780/$everything
 Get the dataset and filter it down to return all active medications
 with its rxcui and description.
 
+1. Use compose
+2. Get only active MedicationRequests
 
 ```
 [
-{rxcui: '', description: ''},
+{code: '', display: ''},
 ...
 ]
 ```
