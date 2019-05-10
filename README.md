@@ -146,5 +146,19 @@ By creating a compose2 function, which is reusable, we create a declarative func
 
 
 
+---
+
+Demo exercise challenge
+
+Get the rxnorm medication name and rxcui for all active medications from this patient bundle
+
+https://r3.smarthealthit.org/Patient/smart-1685497/$everything?_count=500
 
 
+* map(prop) all medicationRequest, and MedicationStatement resources from bundle
+* filter(active)
+* grab medication coding concept
+* find the rxnorm code 
+* combine description and rxcui
+
+ 
